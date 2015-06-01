@@ -1,0 +1,10 @@
+﻿Pour créer la base de données, importer les fichiers dans l'ordre suivant :
+
+1 : instrument.sql
+2 : personne.sql
+3 : evenement.sql
+4 : participer.sql
+5 : inscription.sql
+6 : TRG_NbPlaces.sql
+7 : TRG_Ajout.sql
+8 : TRG_Supp.sql

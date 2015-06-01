@@ -1,0 +1,6 @@
+CREATE TRIGGER TRG_Ajout
+AFTER INSERT ON PARTICIPE
+FOR EACH ROW
+BEGIN
+UPDATE personne SET NbParticipation = NbParticipation+1 WHERE Num = NEW.Num
+END
